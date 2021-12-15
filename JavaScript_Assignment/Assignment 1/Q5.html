@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var year=parseInt(prompt("Enter year"));
+        var count=0;
+        document.write("next leap year from",year,"are");
+        while(count<20)
+        {
+            if(year%4==0)
+            {
+                if(year%100!=0||year%400==0)
+                {
+                    ++count;
+                    document.write(year,",");
+                }
+            }
+            ++year;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+}
+#content{
+    width:500px;
+    background-color:whitesmoke;
+    text-align: center;
+    top:0;
+    position: relative;
+    left: 30%;
+
+}
+#content.open{
+   
+    background-color:blue;
+    color: chartreuse;
+    text-align: center;
+    top:0;
+    position: relative;
+    left: 30%;
+
+}
+#button{
+    width:60px;
+    height: 40px;
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
